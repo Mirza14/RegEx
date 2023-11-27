@@ -1,0 +1,14 @@
+1. Match all of the following characters: c, o, g
+[cog]
+
+2. Match all of the following words: cat, fat, hat
+[cfh]at
+
+3. Match all of the following words: Cat, cat, Hat, hat
+[CcHh]at
+
+4. Match all of the following filenames: File1, File2, file3, file4, file5, File7, file9
+[Ff]ile[1-9]
+
+5. Match all of the filenames of question 4, except "File7" (use the hat symbol)
+[Ff]ile[^7]
