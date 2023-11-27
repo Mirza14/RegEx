@@ -1,6 +1,6 @@
 When searching for a specific string in a file or block of text, you can search for it as is, with grep 'string' <file> . But what happens if you want to search for patterns of text? For example, you could be looking for a word that starts with a specific letter, or any words that end with numbers. That's where Regular Expressions come in.
 
-Both of the aforementioned problems can be solved by using charsets. A charset is defined by enclosing in [ square brackets ] the character(s), or range of characters that you want to match.  Then, it finds every occurrence of the pattern you have defined in the file/text you are searching.
+Both of the aforementioned problems can be solved by using charsets. A charset is defined by enclosing in [ square brackets ] the character(s), or range of characters that you want to match.  Then, it finds every occurrence of the pattern you have defined in the file/text you are searching. Also, known as a character class.
 
 [abc] will match a, b, and c (every occurrence of each letter)
 
