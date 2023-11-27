@@ -1,0 +1,17 @@
+1. Match all of the following words: Cat, fat, hat, rat
+.at
+
+2. Match all of the following words: Cat, cats
+[Cc]ats?
+
+3. Match the following domain name: cat.xyz
+cat\.xyz
+
+4. Match all of the following domain names: cat.xyz, cats.xyz, hats.xyz
+[ch]ats?\.xyz
+
+5. Match every 4-letter string that doesn't end in any letter from n to z
+...[^n-z]
+
+6. Match bat, bats, hat, hats, but not rat or rats (use the hat symbol)
+[^r]ats?
